@@ -1,0 +1,20 @@
+\documentclass{12pt}{article}
+\begin{document}
+\title{Document 2}
+\author{D.Bhide}
+\maketitle
+\section{Introduction}
+\section{History Of Grammer}
+\section{Parts of Speech}
+\subsection{Noun}
+\subsection{Verb}
+\subsection{Adjective}
+\subsection{Adverb}
+\section{Statements}
+\subsection{Complex Statements}
+\subsection{Complex Statements}
+\section{Paragraphs}
+\subsection{Descriptive}
+\subsection{Premitive}
+\subsection{Narrative}
+\end{document}
