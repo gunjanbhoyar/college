@@ -1,18 +1,15 @@
-\documentclass[12pt]{article}
-\usepackage{epsfig,graphicx}
-\title{Document 3}
-\begin{document} 
-\begin{table}[]
-\centering
-\begin{tabular}{|c|c|c|c|c|}\hline
-Number1 & Number2 & Number3 & Total \\\hline
-10 & 10 & 10 & 30\\ \hline
-1&19&20 & 40\\ \hline
-5&5&15&25\\\hline
-4&6&30& 40\\ \hline
-\end{tabular}
-\caption{Caption}
-\label{tab:my_label}
-\end{table}
+\documentclass{letter}
+\title{Document 4}
+\address{Your Name \\ Your Street Address \\ Your City, State Zip Code}
+\signature{Your Name}
+\date{\today}
+\begin{document}
+\begin{letter}{Recipient's Name \\ Recipient's Street Address \\Recipient's City, State Zip Code}
+\opening{Dear Recipient,}
+Content of letter.
+\closing{Sincerely}
+\end{letter}
+\end{document}
+
 \end{document}
 
