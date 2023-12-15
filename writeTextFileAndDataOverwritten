@@ -1,0 +1,18 @@
+f=open("abc.txt",'w')
+f.write("Dhananjay\n")
+f.write("Bhide\n")
+f.write("Nagpur\n")
+f.write("Python\n")
+print("Write Data Succesfully\n")
+f.write("Java\n")
+f.close()
+f=open("abc.txt",'r')
+print(f.read())
+
+f=open("abc.txt",'w')
+l=["Rohit\n","Virat\n","Mumbai\n"]
+f.writelines(l)
+print("Write Data Succesfully")
+f.close()
+f=open("abc.txt",'r')
+print(f.read())
