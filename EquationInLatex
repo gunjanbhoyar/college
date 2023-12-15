@@ -1,0 +1,16 @@
+\documentclass[12pt]{article}
+\begin{document}
+\title{Formula}
+\author{D.Bhide}
+\maketitle
+\section{Formula}
+\begin{equation}
+\left(\frac{d^{2}y}{dx^2{}+2\lambda\frac{dy}{dx}=\sqrt(x}\right)
+\end{equation}
+\begin{equation}
+\label{} a^{2}+2ab+b*{2}
+\end{equation}
+\begin{equation}
+\int^{3}_{O}{xdx},
+\end{equation}
+\end{document}}
