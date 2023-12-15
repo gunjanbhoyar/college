@@ -1,0 +1,17 @@
+import os, sys
+fn = input("Enter File Name: ")
+if os.path.isfile(fn):
+    print("File exists:", fn)
+    f = open(fn, "r")
+else:
+    print("File does not exist:", fn)
+    sys.exit(0)
+lc = wc = cc = 0
+for l in f:
+    lc += 1
+    cc += len(l)
+    w=l.split()
+    wc += len(w) 
+print("Number of lines count:", lc)
+print("Number of words count:", wc)
+print("Number of characters count:", cc)
